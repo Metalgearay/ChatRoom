@@ -8,6 +8,7 @@ class EasySocket
 	public:
 	   EasySocket(int portnumber);
 	   void accept();
+	   
 
 	private:
 	  int socketf,newsocket,port;
@@ -16,3 +17,4 @@ class EasySocket
 
 
 };
+void *handelclient(void *thing);
